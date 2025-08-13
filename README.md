@@ -20,7 +20,7 @@ Unlike basic line followers that only track a single path, our system uses **dua
 |--------------------------|-----------------------------------------------------|
 | **Microcontroller**      | STM32F103C8T6 (Blue Pill)                            |
 | **Sensors**              | 6 × IR line sensors                                  |
-| **Motor Driver**         | *[Add model here]*                                   |
+| **Motor Driver**         | L298N                                   |
 | **Motors**               | Common DC geared motors (suitable for robotics use) |
 | **Power Source**         | 4 × 4V batteries (16V total)                         |
 | **Development Platform** | STM32CubeIDE                                          |
@@ -54,14 +54,6 @@ Unlike basic line followers that only track a single path, our system uses **dua
 3. Power on with the 16V battery pack.
 4. Place the vehicle on the track and watch it navigate autonomously.
 
----
-
-## 📂 Repository Structure
-Eco-Racing/
-├── src/ # Main C source code
-├── inc/ # Header files
-├── README.md # Project description
-└── LICENSE # License file
 
 ---
 
