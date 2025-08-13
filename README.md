@@ -48,14 +48,6 @@ Unlike basic line followers that only track a single path, our system uses **dua
 
 ---
 
-## 📷 Media
-*(Add photos of your car, competition shots, and diagrams here)*  
-- `docs/images/car_front.jpg`
-- `docs/images/car_side.jpg`
-- `docs/images/competition.jpg`
-
----
-
 ## 🚀 Setup & Usage
 1. Connect all hardware as per wiring diagram. *(diagram to be added)*
 2. Flash the firmware to the STM32F103C8T6 using STM32CubeProgrammer or ST-Link.
@@ -68,7 +60,6 @@ Unlike basic line followers that only track a single path, our system uses **dua
 Eco-Racing/
 ├── src/ # Main C source code
 ├── inc/ # Header files
-├── docs/ # Documentation & images
 ├── README.md # Project description
 └── LICENSE # License file
 
